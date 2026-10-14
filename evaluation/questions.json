@@ -1,0 +1,53 @@
+
+[
+  {
+    "question": "How many annual leave days do employees receive?",
+    "expected": "20 days",
+    "answerable": true
+  },
+  {
+    "question": "How many days of paid sick leave are provided?",
+    "expected": "10 days",
+    "answerable": true
+  },
+  {
+    "question": "How many days per week can employees work remotely?",
+    "expected": "3 days",
+    "answerable": true
+  },
+  {
+    "question": "How long is the probation period?",
+    "expected": "6 months",
+    "answerable": true
+  },
+  {
+    "question": "How far in advance must annual leave be requested?",
+    "expected": "5 working days",
+    "answerable": true
+  },
+  {
+    "question": "What is the company's annual revenue?",
+    "expected": null,
+    "answerable": false
+  },
+  {
+    "question": "Who is the company's CEO?",
+    "expected": null,
+    "answerable": false
+  },
+  {
+    "question": "What is the company's headquarters address?",
+    "expected": null,
+    "answerable": false
+  },
+  {
+    "question": "How many annual leave days are provided, and how far in advance must employees request them?",
+    "expected": ["20 days", "5 working days"],
+    "answerable": true
+  },
+  {
+    "question": "How many remote work days are allowed, and who must approve them?",
+    "expected": ["3 days", "manager approval"],
+    "answerable": true
+  }
+]
